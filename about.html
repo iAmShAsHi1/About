@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact</title>
+		<link rel="stylesheet" href="cont.css">
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="nav.css">
+	</head>
+	<body>
+
+		<nav>
+	      <label class="logo">Shashi Kant Singh</label>
+	      <ul>
+	        <li><a class="active" href="index.html">Home</a></li>
+	        <li><a href="about.html">Resume</a></li>
+	      </ul>
+    	</nav>
+    	<div>
+    		<iframe src="Resume.pdf" width="50%" height="1000px">
+    		</iframe>
+    		<iframe src="Coverletter.pdf" width="50%" height="1000px">
+    		</iframe>
+    	</div>
+		
+		<footer>
+	      <h4 style="color: #ff3399">Follow me on social media</h4>
+	      <a href="http://facebook.com/login/web/" style="color: #669980">Facebook</a>&nbsp;
+	      <a href="https://twitter.com/login?lang=en-gb"style="color: #669980">Twitter</a>&nbsp;
+	      <a href="https://www.youtube.com/"style="color: #669980">Youtube</a>
+	    </footer>
+	    <script>
+	        if ('serviceWorker' in navigator) {
+	            window.addEventListener('load', () => {
+	                navigator.serviceWorker.register('./service-worker.js')
+	                    .then(res => console.log(`register and the scope is ${res.scope}`));
+	            })
+	        }
+    	</script>
+	</body>
+</html>

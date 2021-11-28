@@ -1,2 +1,1 @@
-# About
-This website ie about me
+# About Me
